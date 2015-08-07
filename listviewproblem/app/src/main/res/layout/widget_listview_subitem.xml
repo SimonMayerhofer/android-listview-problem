@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/linearLayout_subitem"
+    android:gravity="center"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+	<TextView
+		android:id="@+id/textView_1"
+		style="@style/vplan_card_body_text"
+		android:gravity="center_vertical|center_horizontal|left"
+        tools:text="Fc"/>
+
+	<TextView
+		android:id="@+id/textView_2"
+		style="@style/vplan_card_body_text"
+        android:textSize="18sp"
+		android:gravity="center_vertical|center_horizontal"
+        tools:text="M"/>
+
+	<TextView
+		android:id="@+id/textView_3"
+		style="@style/vplan_card_body_text"
+		android:gravity="center_vertical|center_horizontal|right"
+        tools:text="106"/>
+
+</LinearLayout>

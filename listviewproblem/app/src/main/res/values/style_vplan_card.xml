@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="vplan_card">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:minHeight">80dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="vplan_card_linearLayout_card_header">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:background">@color/card_header_background</item>
+        <item name="android:minHeight">25dp</item>
+        <item name="android:gravity">center_horizontal|fill_vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <style name="vplan_card_head_text">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="vplan_card_body_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="vplan_card_body_text.vertretung">
+        <item name="android:textColor">@color/my_accent_color</item>
+    </style>
+
+    <style name="vplan_card_body_text.cancelled">
+        <item name="android:textColor">@color/abc_secondary_text_material_light</item>
+    </style>
+
+</resources>
