@@ -110,10 +110,7 @@ public class MyWidgetViewsFactory implements RemoteViewsService.RemoteViewsFacto
 
         Item() {
         }
-
-        ;
-
-
+        
         public void addSubitem(String[] subitem) {
             this.subitems.add(subitem);
         }
